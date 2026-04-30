@@ -127,7 +127,7 @@ function formatCategories(categories) {
 function toMarkdown(payload) {
   const results = Array.isArray(payload.results) ? payload.results : [];
   const lines = [
-    "# Image2Studio Prompt Search",
+    "# Image Prompt Search",
     "",
     `Query: ${formatQuery(payload.query)}`,
     `Results: ${results.length}${typeof payload.total === "number" ? ` of ${payload.total}` : ""}`,

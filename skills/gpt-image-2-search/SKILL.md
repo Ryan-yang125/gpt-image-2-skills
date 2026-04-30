@@ -1,11 +1,11 @@
 ---
 name: gpt-image-2-search
-description: Helps users discover prompt and image examples from Image2Studio's public GPT Image 2 prompt library when they need prompt ideas, visual references, style examples, reusable image-generation prompts, or examples for a subject, scene, product shot, poster, character, UI image, social media visual, composition, lighting setup, camera style, or aesthetic direction.
+description: Helps users discover prompt and image examples from a public image-prompt library when they need prompt ideas, visual references, style examples, reusable image-generation prompts, or examples for a subject, scene, product shot, poster, character, UI image, social media visual, composition, lighting setup, camera style, or aesthetic direction.
 ---
 
-# GPT Image 2 Search
+# Image Prompt Search
 
-This skill helps you discover prompt and image examples from Image2Studio's public prompt library.
+This skill helps you discover prompt and image examples from a public image-prompt library.
 
 ## When to Use This Skill
 
@@ -15,11 +15,11 @@ Use this skill when the user:
 - Wants examples for a visual style, subject, composition, medium, or mood
 - Needs reference images before writing or refining a prompt
 - Asks for prompts for product shots, posters, characters, UI images, social media visuals, scenes, lighting, or camera styles
-- Wants to improve, remix, or compare GPT Image 2 prompts
+- Wants to improve, remix, or compare image-generation prompts
 
-## What is Image2Studio Prompt Search?
+## What is Prompt Search?
 
-Image2Studio Prompt Search is a public search API for finding prompt and image examples from Image2Studio's published prompt library.
+Prompt Search is a public search API for finding prompt and image examples from a published prompt library.
 
 Key command:
 
@@ -27,11 +27,7 @@ Key command:
 node scripts/search.mjs --q "cinematic portrait" --limit 8
 ```
 
-Fallback API call:
-
-```bash
-curl -sS "https://api.image2studio.com/public/prompts/search?q=cinematic%20portrait&limit=8"
-```
+If the helper script is unavailable, read `references/api.md` and make the equivalent GET request directly.
 
 ## How to Help Users Find Prompts
 
@@ -77,7 +73,7 @@ When you find relevant prompts, present them with:
 2. Why it matches the user's request
 3. The prompt or a concise prompt excerpt
 4. The `imageUrl` for visual reference
-5. The `studioUrl` for opening the prompt in Image2Studio
+5. The `studioUrl` for opening the prompt in the web editor
 
 Do not call `useUrl` unless the user explicitly chooses or uses that prompt.
 

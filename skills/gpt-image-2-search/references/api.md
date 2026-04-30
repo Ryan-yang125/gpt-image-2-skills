@@ -1,4 +1,4 @@
-# Image2Studio Prompt Search API
+# Image Prompt Search API
 
 Use this reference only when endpoint details or response fields matter.
 
@@ -84,7 +84,7 @@ The API returns a JSON success envelope. The useful payload is in `data`:
 
 - `prompt`: use as the main reusable prompt text.
 - `imageUrl`: use to inspect or show the matching reference image.
-- `studioUrl`: use when the user wants to open the prompt in Image2Studio.
+- `studioUrl`: use when the user wants to open the prompt in the web editor.
 - `useUrl`: do not call during search. Call only when the user explicitly chooses or uses the prompt.
 - `stats`: use as a weak popularity signal, never as the only ranking criterion.
 
