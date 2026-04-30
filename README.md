@@ -1,4 +1,22 @@
-# GPT Image 2 Search Skill by Image2Studio
+<p align="center">
+  <a href="https://image2studio.com/prompts">
+    <img src="assets/gpt-image-2-skills-banner.svg" alt="GPT Image 2 Search Skill by Image2Studio" width="100%" />
+  </a>
+</p>
+
+<h1 align="center">GPT Image 2 Search Skill by Image2Studio</h1>
+
+<p align="center">
+  Agent-ready prompt search for GPT Image 2, ChatGPT image generation, and Image2Studio visual references.
+</p>
+
+<p align="center">
+  <a href="skills/gpt-image-2-search/SKILL.md"><img alt="Skill" src="https://img.shields.io/badge/skill-gpt--image--2--search-111827?style=flat-square" /></a>
+  <a href="https://image2studio.com/prompts"><img alt="GPT Image 2" src="https://img.shields.io/badge/GPT--Image--2-search-2563EB?style=flat-square" /></a>
+  <a href="https://nodejs.org"><img alt="Node.js 18+" src="https://img.shields.io/badge/node-18%2B-16A34A?style=flat-square" /></a>
+  <a href="https://image2studio.com/prompts"><img alt="No API key" src="https://img.shields.io/badge/API%20key-not%20required-F59E0B?style=flat-square" /></a>
+  <a href="https://github.com/Ryan-yang125/gpt-image-2-prompts"><img alt="Prompt gallery" src="https://img.shields.io/badge/prompt%20gallery-1%2C000%20examples-7C3AED?style=flat-square" /></a>
+</p>
 
 Agent skill for searching GPT Image 2 prompts, image references, and visual examples from Image2Studio.
 

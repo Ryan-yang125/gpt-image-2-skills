@@ -1,0 +1,66 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GPT Image 2 Search Skill by Image2Studio</title>
+  <desc id="desc">A banner for an agent skill that searches Image2Studio GPT Image 2 prompts and visual references.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#08111F"/>
+      <stop offset="0.55" stop-color="#102A36"/>
+      <stop offset="1" stop-color="#1B2337"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22C55E"/>
+      <stop offset="0.55" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="imageA" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="imageB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="360" rx="30" fill="url(#bg)"/>
+  <circle cx="1054" cy="92" r="116" fill="#38BDF8" opacity="0.12"/>
+  <circle cx="166" cy="284" r="122" fill="#22C55E" opacity="0.1"/>
+  <path d="M76 284C221 138 414 260 553 132C684 12 839 75 984 143C1104 199 1166 166 1220 111" stroke="url(#line)" stroke-width="2" opacity="0.45"/>
+
+  <g transform="translate(70 58)">
+    <rect x="0" y="0" width="132" height="34" rx="17" fill="#FFFFFF" opacity="0.1"/>
+    <text x="20" y="23" fill="#B7F7D0" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="0">Agent skill</text>
+    <text x="0" y="92" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="0">GPT Image 2</text>
+    <text x="0" y="151" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800" letter-spacing="0">Search Skill</text>
+    <text x="2" y="196" fill="#C8D6E8" font-family="Arial, Helvetica, sans-serif" font-size="23" letter-spacing="0">Find reusable prompts, image references, and visual examples</text>
+    <g transform="translate(0 226)">
+      <rect x="0" y="0" width="112" height="40" rx="20" fill="#FFFFFF" opacity="0.12"/>
+      <text x="22" y="26" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="0">Node 18+</text>
+      <rect x="126" y="0" width="126" height="40" rx="20" fill="#FFFFFF" opacity="0.12"/>
+      <text x="148" y="26" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="0">No API key</text>
+      <rect x="266" y="0" width="152" height="40" rx="20" fill="#FFFFFF" opacity="0.12"/>
+      <text x="288" y="26" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="0">Image2Studio</text>
+    </g>
+  </g>
+
+  <g transform="translate(760 70)">
+    <rect x="0" y="22" width="354" height="208" rx="24" fill="#07111F" opacity="0.9"/>
+    <rect x="0" y="22" width="354" height="42" rx="24" fill="#FFFFFF" opacity="0.08"/>
+    <circle cx="28" cy="43" r="6" fill="#EF4444"/>
+    <circle cx="50" cy="43" r="6" fill="#F59E0B"/>
+    <circle cx="72" cy="43" r="6" fill="#22C55E"/>
+    <text x="28" y="96" fill="#9AE6B4" font-family="Menlo, Consolas, monospace" font-size="16" letter-spacing="0">$ node search.mjs</text>
+    <text x="28" y="128" fill="#D7E6F7" font-family="Menlo, Consolas, monospace" font-size="16" letter-spacing="0">--q "cinematic portrait"</text>
+    <rect x="28" y="154" width="246" height="12" rx="6" fill="#38BDF8" opacity="0.62"/>
+    <rect x="28" y="180" width="188" height="12" rx="6" fill="#A78BFA" opacity="0.5"/>
+    <rect x="28" y="206" width="278" height="12" rx="6" fill="#22C55E" opacity="0.48"/>
+
+    <rect x="384" y="0" width="134" height="164" rx="22" fill="#07111F" opacity="0.78"/>
+    <rect x="400" y="16" width="102" height="74" rx="16" fill="url(#imageA)"/>
+    <rect x="402" y="110" width="74" height="9" rx="4.5" fill="#DCEBFF" opacity="0.8"/>
+    <rect x="402" y="130" width="92" height="8" rx="4" fill="#8EA6C3" opacity="0.58"/>
+    <rect x="422" y="184" width="134" height="164" rx="22" fill="#07111F" opacity="0.68"/>
+    <rect x="438" y="200" width="102" height="74" rx="16" fill="url(#imageB)"/>
+    <rect x="440" y="294" width="72" height="9" rx="4.5" fill="#DCEBFF" opacity="0.8"/>
+    <rect x="440" y="314" width="92" height="8" rx="4" fill="#8EA6C3" opacity="0.58"/>
+  </g>
+</svg>
