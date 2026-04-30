@@ -1,11 +1,11 @@
 ---
 name: gpt-image-2-search
-description: Helps users discover prompt and image examples from a public image-prompt library when they need prompt ideas, visual references, style examples, reusable image-generation prompts, or examples for a subject, scene, product shot, poster, character, UI image, social media visual, composition, lighting setup, camera style, or aesthetic direction.
+description: Use this skill whenever a user needs GPT Image 2 or ChatGPT image generation prompt ideas, Image2Studio prompt examples, visual references, style inspiration, reusable prompts, or examples for a subject, scene, product shot, poster, UI mockup, character, portrait, social media visual, composition, lighting setup, camera style, or aesthetic direction.
 ---
 
-# Image Prompt Search
+# GPT Image 2 Prompt Search
 
-This skill helps you discover prompt and image examples from a public image-prompt library.
+This skill helps you discover GPT Image 2 prompt and image examples from the public Image2Studio prompt library.
 
 ## When to Use This Skill
 
@@ -17,9 +17,9 @@ Use this skill when the user:
 - Asks for prompts for product shots, posters, characters, UI images, social media visuals, scenes, lighting, or camera styles
 - Wants to improve, remix, or compare image-generation prompts
 
-## What is Prompt Search?
+## What is GPT Image 2 Prompt Search?
 
-Prompt Search is a public search API for finding prompt and image examples from a published prompt library.
+GPT Image 2 Prompt Search is a public Image2Studio search API for finding reusable ChatGPT image generation prompts and matching image references.
 
 Key command:
 

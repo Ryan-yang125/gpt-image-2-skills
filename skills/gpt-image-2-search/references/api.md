@@ -1,4 +1,4 @@
-# Image Prompt Search API
+# GPT Image 2 Prompt Search API
 
 Use this reference only when endpoint details or response fields matter.
 
@@ -68,7 +68,7 @@ The API returns a JSON success envelope. The useful payload is in `data`:
           "uses": 0
         },
         "libraryUrl": "https://image2studio.com/prompts",
-        "studioUrl": "https://image2studio.com/create?prompt=...",
+        "studioUrl": "https://image2studio.com/studio?prompt=...",
         "useUrl": "https://api.image2studio.com/prompt-library/items/.../use",
         "publishedAt": "2026-01-01 00:00:00"
       }

@@ -1,12 +1,12 @@
-# Image Prompt Search Skill
+# GPT Image 2 Search Skill by Image2Studio
 
-Agent skill for searching reusable image-generation prompts and visual references.
+Agent skill for searching GPT Image 2 prompts, image references, and visual examples from Image2Studio.
 
-This repository packages a single search skill for agents that need prompt ideas, example images, style references, composition patterns, or reusable image-generation prompts. It is designed to work as a lightweight discovery layer before an agent writes, rewrites, compares, or adapts a visual prompt.
+This repository packages a single search skill for agents and Codex workflows that need reusable ChatGPT image generation prompts, example images, style references, composition patterns, or prompt inspiration. It is designed as a lightweight discovery layer before an agent writes, rewrites, compares, or adapts a GPT Image 2 prompt.
 
 ## Included Skill
 
-- `gpt-image-2-search` - search a public image-prompt library by concise visual keywords.
+- `gpt-image-2-search` - search the public Image2Studio GPT Image 2 prompt library by concise visual keywords.
 
 ## Use Cases
 
@@ -15,6 +15,11 @@ This repository packages a single search skill for agents that need prompt ideas
 - Collect reference images before writing or refining an image-generation prompt.
 - Compare prompt structures and adapt a strong example to a new subject or brand direction.
 - Recover from vague requests by searching for nearby visual language first.
+
+## Related Projects
+
+- [gpt-image-2-prompts](https://github.com/Ryan-yang125/gpt-image-2-prompts) - curated GPT Image 2 prompt gallery with 1,000 prompt-image pairs.
+- [Image2Studio prompt gallery](https://image2studio.com/prompts) - full searchable GPT Image 2 prompt library and web editor.
 
 ## Install
 
